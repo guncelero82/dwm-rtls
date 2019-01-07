@@ -5,11 +5,11 @@ This project provides 3D designs for printing enclosures for Decawave's [DWM1001
 
 Provided 3 types of enclosures depending on the node's role in the RTLS network:
 
-| Board Role         | Design Preview (using Onshape)                                                                                                                      | STL Files                                                                                                                                                       |
+| Board Role         | Design Preview (using Onshape)                                                                                                                      | STL_files                                                                                                                                                       |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tag                | [decawave tag](https://cad.onshape.com/documents/fd7ce9fdb29d748f5defa234/w/6842b3f97fdc5a03c4ed2d9d/e/81a1e0ac1e68754e6e93d733)     | [Box](STL files/Tag/Part Studio 1 - Box.stl), [Top](STL files/Tag/Part Studio 1 - Top box.stl), [Clip](STL files/Tag/Part Studio 1 - Clip.stl)                  |
-| Anchor + support   | [decawave anchors](https://cad.onshape.com/documents/68251a8b84ceac5ed12b3330/w/f88035677ebf678f7fee32a6/e/6d59dcbaddc39079ad2a7eb5) | [Box](STL files/Anchor/Part Studio 1 - Box.stl), [Top](STL files/Anchor/Part Studio 1 - Top box.stl), [Support](STL files/Anchor/Part Studio 1 - clip-support.stl) |
-| RPI Gateway Bridge | [RPI box](https://cad.onshape.com/documents/366b745c4205c93ae10f22b1/w/22c4cd09f8028b4d7e4f3c80/e/2a6d5b5a874f616bdd29a945)          | [Box](STL files/Gateway-RPI/Box click - Box.stl), [Top](STL files/Gateway-RPI/Box click - Top box.stl)                                                          |
+| Tag                | [decawave tag](https://cad.onshape.com/documents/fd7ce9fdb29d748f5defa234/w/6842b3f97fdc5a03c4ed2d9d/e/81a1e0ac1e68754e6e93d733)     | [Box](STL_files/Tag/Box.stl), [Top](STL_files/Tag/Top-box.stl), [Clip](STL_files/Tag/Clip.stl)                  |
+| Anchor + support   | [decawave anchors](https://cad.onshape.com/documents/68251a8b84ceac5ed12b3330/w/f88035677ebf678f7fee32a6/e/6d59dcbaddc39079ad2a7eb5) | [Box](STL_files/Anchor/Box.stl), [Top](STL_files/Anchor/Top-box.stl), [Support](STL_files/Anchor/clip-support.stl) |
+| RPI Gateway Bridge | [RPI box](https://cad.onshape.com/documents/366b745c4205c93ae10f22b1/w/22c4cd09f8028b4d7e4f3c80/e/2a6d5b5a874f616bdd29a945)          | [Box](STL_files/Gateway-RPI/Box.stl), [Top](STL_files/Gateway-RPI/Top-box.stl)                                                          |
 
 ## Tag Enclosure
 The Tag enclosure design fulfils the following requirements:
@@ -36,7 +36,7 @@ Of course, the tag can be charged without opening the box.
 ## Anchor Enclosure
 The Anchor enclosure design fulfils the following requirements:
 
-- **Removable**: A support [piece](STL files/Anchor/Part Studio 1 - clip-support.stl) is first fixed on the wall using a double-side tape for instance. Then the anchor box sits on it !
+- **Removable**: A support [piece](STL_files/Anchor/clip-support.stl) is first fixed on the wall using a double-side tape for instance. Then the anchor box sits on it !
 - **Switched**: a tiny power switch is used for power cycling the board.
 
 This design eases the process of battery swap and the anchor positioning since one first positon the supports (on the wall) and can, at any time, safely and easily remove/replace the boards.
